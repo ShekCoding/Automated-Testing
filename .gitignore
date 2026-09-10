@@ -3,5 +3,8 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
+# 测试报告（生成物，不提交）
+report.html
+
 # macOS
 .DS_Store
