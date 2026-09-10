@@ -35,8 +35,10 @@ pip3 install requests pytest pytest-html pytest-rerunfailures
 # 2. 运行全部测试（已配置失败重试 + 详细输出）
 pytest
 
-# 3. 生成测试报告
+# 3. 生成测试报告（手动）
 pytest --html=report.html --self-contained-html
+# 想每次自动生成，把下面这行写进 pytest.ini 的 addopts：
+# addopts = -v --html=report.html --self-contained-html
 ```
 
 ## 框架设计
