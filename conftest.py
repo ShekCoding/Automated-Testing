@@ -4,7 +4,7 @@ conftest.py：pytest 会自动读取这个文件
 放共享的 fixture、自定义命令行参数等
 """
 import pytest
-from config import ENVIRONMENTS
+from common.config import ENVIRONMENTS
 
 
 # 自定义命令行参数 --env，默认 test

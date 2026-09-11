@@ -1,0 +1,6 @@
+# 接口自动化测试框架依赖
+requests
+pytest
+pytest-html
+pytest-rerunfailures
+jsonpath

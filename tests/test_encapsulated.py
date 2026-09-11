@@ -4,11 +4,11 @@
 运行：pytest test_encapsulated.py -v
 
 对比一下：这里不再写 requests.get、不再写 BASE_URL，
-全部来自 common.py，用例变得非常干净。
+全部来自 common/http_client.py，用例变得非常干净。
 """
 
 import pytest
-from common import api_get, api_post, assert_status
+from common.http_client import api_get, api_post, assert_status
 
 
 def test_simple_get():
